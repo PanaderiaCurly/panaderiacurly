@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { WildLayoutComponent } from './layout/appLayout/wild-layout/wild-layout.component';
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  // }
+  {
+    path: '',
+    component: WildLayoutComponent,
+  }
 ];
 
 @NgModule({

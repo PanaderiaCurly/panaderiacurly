@@ -4,10 +4,18 @@ import { LoadingBarModule } from '@ngx-loading-bar/core';
 import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
 
 import { NgxLoadingBarComponent } from './ngx-loading-bar/ngx-loading-bar.component';
+import { WildLayoutComponent } from './appLayout/wild-layout/wild-layout.component';
+import { HeaderComponent } from './header/header.component';
+import { BodyComponent } from './body/body.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    NgxLoadingBarComponent
+    NgxLoadingBarComponent,
+    WildLayoutComponent,
+    HeaderComponent,
+    BodyComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -15,7 +23,7 @@ import { NgxLoadingBarComponent } from './ngx-loading-bar/ngx-loading-bar.compon
     LoadingBarRouterModule
   ],
   exports: [
-    NgxLoadingBarComponent
+    NgxLoadingBarComponent,
   ],
   providers: []
 })
