@@ -8,6 +8,8 @@ import { WildLayoutComponent } from './appLayout/wild-layout/wild-layout.compone
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
+import { SharedModule } from '../shared/shared.module';
+import { MaterialModule } from '../shared/material.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     CommonModule,
     LoadingBarModule,
-    LoadingBarRouterModule
+    LoadingBarRouterModule,
+    SharedModule,
+    MaterialModule
   ],
   exports: [
     NgxLoadingBarComponent,
