@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input, isDevMode } from '@angular/core';
+
+import pkg from 'package.json';
 
 @Component({
   selector: 'app-footer',
@@ -7,5 +9,7 @@ import { Component } from '@angular/core';
   ]
 })
 export class FooterComponent {
-
+  version = pkg.version
+  stage = isDevMode() ? 'dev' : 'prod'
+  @Input() projectName = pkg.name
 }

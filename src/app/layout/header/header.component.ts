@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-
+import pkg from 'package.json'
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
   ]
 })
 export class HeaderComponent {
-  @Input() brandName = '[Curly Wacamole]'
+  @Input() projectName = pkg.name
 }
