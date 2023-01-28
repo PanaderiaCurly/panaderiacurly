@@ -68,8 +68,7 @@
               "browserTarget": "curly-guacamole:build:production"
             },
             "development": {
-              "browserTarget": "curly-guacamole:build:development",
-              "ssl": true
+              "browserTarget": "curly-guacamole:build:development"
             }
           },
           "defaultConfiguration": "development"

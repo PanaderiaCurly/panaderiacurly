@@ -23,6 +23,8 @@ import { SocialPostsComponent } from './body/sections/social-posts/social-posts.
 import { SubscribeBannerComponent } from './body/subscribe-banner/subscribe-banner.component';
 import { ContactFormComponent } from './body/contact-form/contact-form.component';
 
+import { SocialPostsService } from './body/sections/social-posts/social-posts.service';
+
 @NgModule({
   declarations: [
     NgxLoadingBarComponent,
@@ -53,6 +55,8 @@ import { ContactFormComponent } from './body/contact-form/contact-form.component
   exports: [
     NgxLoadingBarComponent,
   ],
-  providers: []
+  providers: [
+    SocialPostsService
+  ]
 })
 export class LayoutModule { }
