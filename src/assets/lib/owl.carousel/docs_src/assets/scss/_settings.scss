@@ -39,7 +39,7 @@ $row-width: rem-calc(1000);
 // Global
 
 // We use these to control various global styles
-// $body-bg: #fff;
+// $body-bg: #fffae3;
 // $body-font-color: #222;
 $body-font-family: "Lato","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
@@ -67,7 +67,7 @@ $alert-color: #f04124;
 
 // We use these to control inset shadow shiny edges and depressions.
 // $shiny-edge-size: 0 1px 0;
-// $shiny-edge-color: rgba(#fff, .5);
+// $shiny-edge-color: rgba(#fffae3, .5);
 // $shiny-edge-active-color: rgba(#000, .2);
 
 // $column-gutter: rem-calc(30);
@@ -230,7 +230,7 @@ $anchor-font-color: #1ccacd;
 // $accordion-navigation-font-family: $body-font-family;
 
 // $accordion-content-padding: $column-gutter/2;
-// $accordion-content-active-bg-color: #fff;
+// $accordion-content-active-bg-color: #fffae3;
 
 // Alert Boxes
 
@@ -245,7 +245,7 @@ $anchor-font-color: #1ccacd;
 // We use these to control text style.
 // $alert-font-weight: normal;
 // $alert-font-size: rem-calc(13);
-// $alert-font-color: #fff;
+// $alert-font-color: #fffae3;
 // $alert-font-color-alt: scale-color($secondary-color, $lightness: -66%);
 
 // We use this for close hover effect.
@@ -335,7 +335,7 @@ $anchor-font-color: #1ccacd;
 
 // We use these to control button text styles.
 // $button-font-family: $body-font-family;
-// $button-font-color: #fff;
+// $button-font-color: #fffae3;
 // $button-font-color-alt: #333;
 // $button-font-tny: rem-calc(11);
 // $button-font-sml: rem-calc(13);
@@ -419,16 +419,16 @@ $anchor-font-color: #1ccacd;
 // $f-dropdown-margin-bottom: $f-dropdown-margin-top;
 
 // We use this to control the background color
-// $f-dropdown-bg: #fff;
+// $f-dropdown-bg: #fffae3;
 
 // We use this to set the border styles for dropdowns.
 // $f-dropdown-border-style: solid;
 // $f-dropdown-border-width: 1px;
-// $f-dropdown-border-color: scale-color(#fff, $lightness: -20%);
+// $f-dropdown-border-color: scale-color(#fffae3, $lightness: -20%);
 
 // We use these to style the triangle pip.
 // $f-dropdown-triangle-size: 6px;
-// $f-dropdown-triangle-color: #fff;
+// $f-dropdown-triangle-color: #fffae3;
 // $f-dropdown-triangle-side-offset: 10px;
 
 // We use these to control styles for the list elements.
@@ -448,7 +448,7 @@ $anchor-font-color: #1ccacd;
 // $include-html-button-classes: $include-html-classes;
 
 // We use these to set the color of the pip in dropdown buttons
-// $dropdown-button-pip-color: #fff;
+// $dropdown-button-pip-color: #fffae3;
 // $dropdown-button-pip-color-alt: #333;
 
 // $button-pip-tny: rem-calc(6);
@@ -510,10 +510,10 @@ $anchor-font-color: #1ccacd;
 // $input-font-family: inherit;
 // $input-font-color: rgba(0,0,0,0.75);
 // $input-font-size: rem-calc(14);
-// $input-bg-color: #fff;
-// $input-focus-bg-color: scale-color(#fff, $lightness: -2%);
-// $input-border-color: scale-color(#fff, $lightness: -20%);
-// $input-focus-border-color: scale-color(#fff, $lightness: -40%);
+// $input-bg-color: #fffae3;
+// $input-focus-bg-color: scale-color(#fffae3, $lightness: -2%);
+// $input-border-color: scale-color(#fffae3, $lightness: -20%);
+// $input-focus-border-color: scale-color(#fffae3, $lightness: -40%);
 // $input-border-style: solid;
 // $input-border-width: 1px;
 // $input-border-radius: $global-radius;
@@ -529,18 +529,18 @@ $anchor-font-color: #1ccacd;
 // $fieldset-margin: rem-calc(18 0);
 
 // We use these to style the legends when you use them
-// $legend-bg: #fff;
+// $legend-bg: #fffae3;
 // $legend-font-weight: bold;
 // $legend-padding: rem-calc(0 3);
 
 // We use these to style the prefix and postfix input elements
-// $input-prefix-bg: scale-color(#fff, $lightness: -5%);
-// $input-prefix-border-color: scale-color(#fff, $lightness: -20%);
+// $input-prefix-bg: scale-color(#fffae3, $lightness: -5%);
+// $input-prefix-border-color: scale-color(#fffae3, $lightness: -20%);
 // $input-prefix-border-size: 1px;
 // $input-prefix-border-type: solid;
 // $input-prefix-overflow: hidden;
 // $input-prefix-font-color: #333;
-// $input-prefix-font-color-alt: #fff;
+// $input-prefix-font-color-alt: #fffae3;
 
 // We use these to style the error states for inputs and labels
 // $input-error-message-padding: rem-calc(6 9 9);
@@ -548,7 +548,7 @@ $anchor-font-color: #1ccacd;
 // $input-error-message-font-size: rem-calc(12);
 // $input-error-message-font-weight: normal;
 // $input-error-message-font-style: italic;
-// $input-error-message-font-color: #fff;
+// $input-error-message-font-color: #fffae3;
 // $input-error-message-font-color-alt: #333;
 
 // We use this to style the glowing effect of inputs when focused
@@ -593,7 +593,7 @@ $anchor-font-color: #1ccacd;
 // $joyride-tip-position-offset: 22px;
 
 // Here, we're setting the tip dont styles
-// $joyride-tip-font-color: #fff;
+// $joyride-tip-font-color: #fffae3;
 // $joyride-tip-font-size: rem-calc(14);
 // $joyride-tip-header-weight: bold;
 
@@ -603,7 +603,7 @@ $anchor-font-color: #1ccacd;
 // This adjusts the styles for the timer when its enabled
 // $joyride-tip-timer-width: 50px;
 // $joyride-tip-timer-height: 3px;
-// $joyride-tip-timer-color: #666;
+// $joyride-tip-timer-color: #282728;
 
 // This changes up the styles for the close button
 // $joyride-tip-close-color: #777;
@@ -621,14 +621,14 @@ $anchor-font-color: #1ccacd;
 // $keystroke-font: "Consolas", "Menlo", "Courier", monospace;
 // $keystroke-font-size: inherit;
 // $keystroke-font-color: #222;
-// $keystroke-font-color-alt: #fff;
+// $keystroke-font-color-alt: #fffae3;
 // $keystroke-function-factor: -7%;
 
 // We use this to control keystroke padding.
 // $keystroke-padding: rem-calc(2 4 0);
 
 // We use these to control background and border styles.
-// $keystroke-bg: scale-color(#fff, $lightness: $keystroke-function-factor);
+// $keystroke-bg: scale-color(#fffae3, $lightness: $keystroke-function-factor);
 // $keystroke-border-style: solid;
 // $keystroke-border-width: 1px;
 // $keystroke-border-color: scale-color($keystroke-bg, $lightness: $keystroke-function-factor);
@@ -646,14 +646,14 @@ $anchor-font-color: #1ccacd;
 // $label-font-sizing: rem-calc(11);
 // $label-font-weight: normal;
 // $label-font-color: #333;
-// $label-font-color-alt: #fff;
+// $label-font-color-alt: #fffae3;
 // $label-font-family: $body-font-family;
 
 // Magellan
 
 // $include-html-magellan-classes: $include-html-classes;
 
-// $magellan-bg: #fff;
+// $magellan-bg: #fffae3;
 // $magellan-padding: 10px;
 
 // Off-canvas
@@ -663,7 +663,7 @@ $anchor-font-color: #1ccacd;
 // $tabbar-bg: #333;
 // $tabbar-height: rem-calc(45);
 // $tabbar-line-height: $tabbar-height;
-// $tabbar-color: #fff;
+// $tabbar-color: #fffae3;
 // $tabbar-middle-padding: 0 rem-calc(10);
 
 // Off Canvas Divider Styles
@@ -671,7 +671,7 @@ $anchor-font-color: #1ccacd;
 // $tabbar-left-section-border: solid 1px scale-color($tabbar-bg, $lightness: -50%);
 
 // Off Canvas Tab Bar Headers
-// $tabbar-header-color: #fff;
+// $tabbar-header-color: #fffae3;
 // $tabbar-header-weight: bold;
 // $tabbar-header-line-height: $tabbar-height;
 // $tabbar-header-margin: 0;
@@ -690,11 +690,11 @@ $anchor-font-color: #1ccacd;
 // $off-canvas-label-border-bottom: none;
 // $off-canvas-label-margin:0;
 // $off-canvas-link-padding: rem-calc(10, 15);
-// $off-canvas-link-color: rgba(#fff, 0.7);
+// $off-canvas-link-color: rgba(#fffae3, 0.7);
 // $off-canvas-link-border-bottom: 1px solid scale-color($off-canvas-bg, $lightness: -25%);
 
 // Off Canvas Menu Icon Variables
-// $tabbar-menu-icon-color: #fff;
+// $tabbar-menu-icon-color: #fffae3;
 // $tabbar-menu-icon-hover: scale-color($tabbar-menu-icon-color, $lightness: -30%);
 
 // $tabbar-menu-icon-text-indent: rem-calc(35);
@@ -713,8 +713,8 @@ $anchor-font-color: #1ccacd;
 // $off-canvas-overlay-transition: background 300ms ease;
 // $off-canvas-overlay-cursor: pointer;
 // $off-canvas-overlay-box-shadow: -4px 0 4px rgba(#000, 0.5), 4px 0 4px rgba(#000, 0.5);
-// $off-canvas-overlay-background: rgba(#fff, 0.2);
-// $off-canvas-overlay-background-hover: rgba(#fff, 0.05);
+// $off-canvas-overlay-background: rgba(#fffae3, 0.2);
+// $off-canvas-overlay-background-hover: rgba(#fffae3, 0.05);
 
 // Transition Variables
 // $menu-slide: "transform 500ms ease";
@@ -726,7 +726,7 @@ $anchor-font-color: #1ccacd;
 // We use these to control the caption styles
 // $orbit-container-bg: none;
 // $orbit-caption-bg: rgba(51,51,51, 0.8);
-// $orbit-caption-font-color: #fff;
+// $orbit-caption-font-color: #fffae3;
 // $orbit-caption-font-size: rem-calc(14);
 // $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
 // $orbit-caption-padding: rem-calc(10 14);
@@ -735,8 +735,8 @@ $anchor-font-color: #1ccacd;
 // We use these to control the left/right nav styles
 // $orbit-nav-bg: transparent;
 // $orbit-nav-bg-hover: rgba(0,0,0,0.3);
-// $orbit-nav-arrow-color: #fff;
-// $orbit-nav-arrow-color-hover: #fff;
+// $orbit-nav-arrow-color: #fffae3;
+// $orbit-nav-arrow-color-hover: #fffae3;
 
 // We use these to control the timer styles
 // $orbit-timer-bg: rgba(255,255,255,0.3);
@@ -749,7 +749,7 @@ $anchor-font-color: #1ccacd;
 
 // We use these to controls the style of slide numbers
 // $orbit-slide-number-bg: rgba(0,0,0,0);
-// $orbit-slide-number-font-color: #fff;
+// $orbit-slide-number-font-color: #fffae3;
 // $orbit-slide-number-padding: rem-calc(5);
 
 // We use these to controls the css animation
@@ -783,7 +783,7 @@ $anchor-font-color: #1ccacd;
 // We use these for the pagination anchor links
 // $pagination-link-pad: rem-calc(1 10 1);
 // $pagination-link-font-color: #999;
-// $pagination-link-active-bg: scale-color(#fff, $lightness: -10%);
+// $pagination-link-active-bg: scale-color(#fffae3, $lightness: -10%);
 
 // We use these for disabled anchor links
 // $pagination-link-unavailable-cursor: default;
@@ -792,7 +792,7 @@ $anchor-font-color: #1ccacd;
 
 // We use these for currently selected anchor links
 // $pagination-link-current-background: $primary-color;
-// $pagination-link-current-font-color: #fff;
+// $pagination-link-current-font-color: #fffae3;
 // $pagination-link-current-font-weight: bold;
 // $pagination-link-current-cursor: default;
 // $pagination-link-current-active-bg: $primary-color;
@@ -802,7 +802,7 @@ $anchor-font-color: #1ccacd;
 // $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-// $panel-bg: scale-color(#fff, $lightness: -5%);
+// $panel-bg: scale-color(#fffae3, $lightness: -5%);
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
@@ -816,7 +816,7 @@ $anchor-font-color: #1ccacd;
 
 // We use these to set default font colors
 // $panel-font-color: #333;
-// $panel-font-color-alt: #fff;
+// $panel-font-color-alt: #fffae3;
 
 // $panel-header-adjust: true;
 // $callout-panel-link-color: $primary-color;
@@ -851,7 +851,7 @@ $anchor-font-color: #1ccacd;
 
 
 // We use these to control the description styles
-// $price-bg: #fff;
+// $price-bg: #fffae3;
 // $price-desc-color: #777;
 // $price-desc-padding: rem-calc(15);
 // $price-desc-align: center;
@@ -869,7 +869,7 @@ $anchor-font-color: #1ccacd;
 // $price-item-bottom-border: dotted 1px #ddd;
 
 // We use these to control the CTA area styles
-// $price-cta-bg: #fff;
+// $price-cta-bg: #fffae3;
 // $price-cta-align: center;
 // $price-cta-padding: rem-calc(20 20 0);
 
@@ -882,7 +882,7 @@ $anchor-font-color: #1ccacd;
 // $progress-bar-color: #f6f6f6  ;
 
 // We use these to control the border styles
-// $progress-bar-border-color: scale-color(#fff, $lightness: 20%);
+// $progress-bar-border-color: scale-color(#fffae3, $lightness: 20%);
 // $progress-bar-border-size: 1px;
 // $progress-bar-border-style: solid;
 // $progress-bar-border-radius: $global-radius;
@@ -906,7 +906,7 @@ $anchor-font-color: #1ccacd;
 // $reveal-overlay-bg-old: #000;
 
 // We use these to control the style of the modal itself.
-// $reveal-modal-bg: #fff;
+// $reveal-modal-bg: #fffae3;
 // $reveal-position-top: rem-calc(100);
 // $reveal-default-width: 80%;
 // $reveal-modal-padding: rem-calc(20);
@@ -926,7 +926,7 @@ $anchor-font-color: #1ccacd;
 // We use these to control the modal border
 // $reveal-border-style: solid;
 // $reveal-border-width: 1px;
-// $reveal-border-color: #666;
+// $reveal-border-color: #282728;
 
 // $reveal-modal-class: "reveal-modal";
 // $close-reveal-modal-class: "close-reveal-modal";
@@ -958,7 +958,7 @@ $side-nav-font-size: rem-calc(16);
 // We use these to control border styles
 // $side-nav-divider-size: 1px;
 // $side-nav-divider-style: solid;
-// $side-nav-divider-color: scale-color(#fff, $lightness: 10%);
+// $side-nav-divider-color: scale-color(#fffae3, $lightness: 10%);
 
 // Split Buttons
 
@@ -966,7 +966,7 @@ $side-nav-font-size: rem-calc(16);
 
 // We use these to control different shared styles for Split Buttons
 // $split-button-function-factor: 10%;
-// $split-button-pip-color: #fff;
+// $split-button-pip-color: #fffae3;
 // $split-button-pip-color-alt: #333;
 // $split-button-active-bg-tint: rgba(0,0,0,0.1);
 
@@ -1021,7 +1021,7 @@ $side-nav-font-size: rem-calc(16);
 // $sub-nav-active-font-weight: normal;
 // $sub-nav-active-bg: $primary-color;
 // $sub-nav-active-bg-hover: scale-color($sub-nav-active-bg, $lightness: -14%);
-// $sub-nav-active-color: #fff;
+// $sub-nav-active-color: #fffae3;
 // $sub-nav-active-padding: $sub-nav-padding;
 // $sub-nav-active-cursor: default;
 
@@ -1035,10 +1035,10 @@ $side-nav-font-size: rem-calc(16);
 // $include-html-form-classes: $include-html-classes;
 
 // Controlling border styles and background colors for the switch container
-// $switch-border-color: scale-color(#fff, $lightness: -20%);
+// $switch-border-color: scale-color(#fffae3, $lightness: -20%);
 // $switch-border-style: solid;
 // $switch-border-width: 1px;
-// $switch-bg: #fff;
+// $switch-bg: #fffae3;
 
 // We use these to control the switch heights for our default classes
 // $switch-height-tny: 22px;
@@ -1055,7 +1055,7 @@ $side-nav-font-size: rem-calc(16);
 // $switch-label-side-padding: 6px;
 
 // We use these to style the switch-paddle
-// $switch-paddle-bg: #fff;
+// $switch-paddle-bg: #fffae3;
 // $switch-paddle-fade-to-color: scale-color($switch-paddle-bg, $lightness: -10%);
 // $switch-paddle-border-color: scale-color($switch-paddle-bg, $lightness: -35%);
 // $switch-paddle-border-width: 1px;
@@ -1073,7 +1073,7 @@ $side-nav-font-size: rem-calc(16);
 // $include-html-table-classes: $include-html-classes;
 
 // These control the background color for the table and even rows
-// $table-bg: #fff;
+// $table-bg: #fffae3;
 // $table-even-row-bg: #f9f9f9  ;
 
 // These control the table cell border style
@@ -1106,7 +1106,7 @@ $side-nav-font-size: rem-calc(16);
 
 // $tabs-navigation-padding: rem-calc(16);
 // $tabs-navigation-bg-color: #efefef  ;
-// $tabs-navigation-active-bg-color: #fff;
+// $tabs-navigation-active-bg-color: #fffae3;
 // $tabs-navigation-hover-bg-color: scale-color($tabs-navigation-bg-color, $lightness: -6%);
 // $tabs-navigation-font-color: #222;
 // $tabs-navigation-font-size: rem-calc(16);
@@ -1126,7 +1126,7 @@ $side-nav-font-size: rem-calc(16);
 // We use these to control border styles
 // $thumb-border-style: solid;
 // $thumb-border-width: 4px;
-// $thumb-border-color: #fff;
+// $thumb-border-color: #fffae3;
 // $thumb-box-shadow: 0 0 0 1px rgba(#000,.2);
 // $thumb-box-shadow-hover: 0 0 6px 1px rgba($primary-color,0.5);
 
@@ -1151,7 +1151,7 @@ $side-nav-font-size: rem-calc(16);
 // $tooltip-bg: #333;
 // $tooltip-font-size: rem-calc(14);
 // $tooltip-font-weight: normal;
-// $tooltip-font-color: #fff;
+// $tooltip-font-color: #fffae3;
 // $tooltip-line-height: 1.3;
 // $tooltip-close-font-size: rem-calc(10);
 // $tooltip-close-font-weight: normal;
@@ -1181,18 +1181,18 @@ $side-nav-font-size: rem-calc(16);
 
 // Style the top bar dropdown elements
 // $topbar-dropdown-bg: #333;
-// $topbar-dropdown-link-color: #fff;
+// $topbar-dropdown-link-color: #fffae3;
 // $topbar-dropdown-link-bg: #333;
 // $topbar-dropdown-link-weight: normal;
 // $topbar-dropdown-toggle-size: 5px;
-// $topbar-dropdown-toggle-color: #fff;
+// $topbar-dropdown-toggle-color: #fffae3;
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
-// $topbar-link-color: #fff;
-// $topbar-link-color-hover: #fff;
-// $topbar-link-color-active: #fff;
-// $topbar-link-color-active-hover: #fff;
+// $topbar-link-color: #fffae3;
+// $topbar-link-color-hover: #fffae3;
+// $topbar-link-color-active: #fffae3;
+// $topbar-link-color-active-hover: #fffae3;
 // $topbar-link-weight: normal;
 // $topbar-link-font-size: rem-calc(13);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
@@ -1217,8 +1217,8 @@ $side-nav-font-size: rem-calc(16);
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: bold;
-// $topbar-menu-link-color: #fff;
-// $topbar-menu-icon-color: #fff;
+// $topbar-menu-link-color: #fffae3;
+// $topbar-menu-icon-color: #fffae3;
 // $topbar-menu-link-color-toggled: #888;
 // $topbar-menu-icon-color-toggled: #888;
 

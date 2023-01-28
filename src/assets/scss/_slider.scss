@@ -57,7 +57,7 @@ General Styles - FlexSlider
 
 .flex-control-nav > li > a {
 	background: transparent;
-	border: 1px solid #fff;
+	border: 1px solid #fffae3;
 	display: block;
 	height: 6px;
 	width: 6px;
@@ -68,7 +68,7 @@ General Styles - FlexSlider
 
 .flex-control-nav > li > a:hover,
 .flex-control-nav > li > a.flex-active {
-	background: #fff;
+	background: #fffae3;
 }
 
 /* -------------------------------------------------------------------
@@ -179,7 +179,7 @@ General Styles - Owlcarousel
 
 .owl-controls .owl-page span {
 	background: transparent;
-	border: 1px solid #111;
+	border: 1px solid #744235;
 	display: block;
 	height: 6px;
 	width: 6px;
@@ -196,12 +196,12 @@ General Styles - Owlcarousel
 
 .owl-controls .owl-page.active span,
 .owl-controls.clickable .owl-page:hover span {
-	background: #111;
+	background: #744235;
 }
 
 .owl-controls .owl-buttons > div {
 	display: inline-block;
 	margin: 5px;
 	font-size: 14px;
-	color: #111;
+	color: #744235;
 }
