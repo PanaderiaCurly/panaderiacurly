@@ -1,6 +1,6 @@
 .price-table {
 	background: #fffae3;
-	border: 1px solid #eaeaea;
+	border: 1px solid #bfbdd0;
 	padding: 25px 20px;
 	margin: 15px 0 30px;
 	border-radius: 2px;
@@ -21,7 +21,7 @@
 
 .borderline {
 	position: relative;
-	background: #eaeaea;
+	background: #bfbdd0;
 	display: block;
 	height: 1px;
 	width: 100%;
@@ -30,7 +30,7 @@
 
 .borderline:before {
 	position: absolute;
-	background: #eaeaea;
+	background: #bfbdd0;
 	content: "";
 	bottom: -7px;
 	left: 50%;

@@ -26,4 +26,8 @@ export class SocialPostsComponent implements OnInit {
       this.posts = res
     })
   }
+
+  newTab(url: string){
+    window.open(url);
+  }
 }

@@ -24,6 +24,8 @@ import { SubscribeBannerComponent } from './body/subscribe-banner/subscribe-bann
 import { ContactFormComponent } from './body/contact-form/contact-form.component';
 
 import { SocialPostsService } from './body/sections/social-posts/social-posts.service';
+import { MenuChartComponent } from './body/sections/menu-chart/menu-chart.component';
+import { VideoModuleComponent } from './body/sections/video-module/video-module.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { SocialPostsService } from './body/sections/social-posts/social-posts.se
     SliderComponent,
     SocialPostsComponent,
     SubscribeBannerComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    MenuChartComponent,
+    VideoModuleComponent
   ],
   imports: [
     CommonModule,
