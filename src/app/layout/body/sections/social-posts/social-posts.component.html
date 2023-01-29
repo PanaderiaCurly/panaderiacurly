@@ -3,17 +3,17 @@
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
         <h2 class="module-title font-alt">Redes sociales</h2>
-        <div class="module-subtitle font-serif">Entérate de las últimas novedades que tenemos para contarte. Tenemos concursos, promociones y más.</div>
+        <div class="module-subtitle font-serif">Entérate de las últimas novedades que tenemos para contarte. Tenemos concursos, recetas, promociones y más.</div>
       </div>
     </div>
     <div class="row multi-columns-row post-columns">
       <ng-container *ngFor="let post of posts">
         <div class="col-sm-12 col-md-4 col-lg-4 justify-self-center">
           <div class="post mb-20">
-            <div class="post-thumbnail"><a href="#"><img src="{{post.url}}" alt="Blog-post Thumbnail"/></a></div>
+            <div class="post-thumbnail"><a href="#"><img src="{{post.media_url}}" alt="Blog-post Thumbnail"/></a></div>
             <div class="post-header font-alt">
-              <h2 class="post-title"><a href="#">Instagram Post</a></h2>
-              <div class="post-meta">By&nbsp;<a href="#">Mark Stone</a>&nbsp;| 23 November | 3 Comments
+              <h2 class="post-title"><a href="#">Instagram</a></h2>
+              <div class="post-meta">Por &nbsp;<a href="#">{{post.username}}</a>&nbsp;| {{post.timestamp | date}}
               </div>
             </div>
             <div class="post-entry">

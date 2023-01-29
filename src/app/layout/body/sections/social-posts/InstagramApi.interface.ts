@@ -1,12 +1,14 @@
-export interface LastPostsResponse {
+export interface GetPostsResponse {
   data:   Datum[];
   paging: Paging;
 }
 
 export interface Datum {
-  id:      string;
-  caption: string;
-  url?:    string;
+  id:        string;
+  media_url: string;
+  caption:   string;
+  timestamp: string;
+  username:  string;
 }
 
 export interface Paging {

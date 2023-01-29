@@ -16,18 +16,14 @@ export class SocialPostsComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.lastPosts();
-    console.log(this.posts);
+    this.getPosts();
+    console.log("component", this.posts);
 
   }
 
-  lastPosts(){
-    this.socialPostsService.lastPosts().subscribe((res: any) => {
+  getPosts(){
+    this.socialPostsService.getPosts().subscribe((res: any) => {
       this.posts = res
     })
-  }
-
-  get dataMedia() {
-    return this.socialPostsService.dataMedia
   }
 }
