@@ -24,6 +24,7 @@
     "@ngx-loading-bar/core": "^6.0.2",
     "@ngx-loading-bar/router": "^6.0.2",
     "@popperjs/core": "^2.11.6",
+    "angular-cli-ghpages": "^1.0.5",
     "bootstrap": "^5.2.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
