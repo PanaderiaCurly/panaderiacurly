@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, catchError, map, take, tap } from 'rxjs';
 import { environment } from 'src/environment/environment';
+import { environment as environmentProd } from 'src/environment/environment.prod';
 import { GetMediaResponse, Datum, GetPostsResponse } from './InstagramApi.interface';
 
 @Injectable({
@@ -9,17 +10,11 @@ import { GetMediaResponse, Datum, GetPostsResponse } from './InstagramApi.interf
 })
 export class SocialPostsService {
   private urlBase = environment.igGraph.urlBase
-  private accessToken = environment.igGraph.longAccessToken
-  private _dataMedia!: any[]
+  private accessToken = environment.production ? environmentProd.igGraph.longAccessToken : environment.igGraph.longAccessToken
 
   constructor(
     private http: HttpClient
   ) { }
-
-  // [DEPRECADO]
-  // get dataMedia() {
-  //   return { ...this._dataMedia }
-  // }
 
   getPosts() {
     const url = `${this.urlBase}/me/media`
@@ -32,6 +27,11 @@ export class SocialPostsService {
       catchError(err => err)
     )
   }
+
+  // [DEPRECADO]
+  // get dataMedia() {
+  //   return { ...this._dataMedia }
+  // }
 
   // [DEPRECADO]
   // lastPosts() {
